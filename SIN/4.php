@@ -21,9 +21,6 @@
     $mensaje = "";
 
 
-    // ======================
-    // CREATE
-    // ======================
     if (isset($_POST["crear"])) {
         $nombre = $_POST["nombre"] ?? "";
 
@@ -36,9 +33,7 @@
     }
 
 
-    // ======================
-    // DELETE
-    // ======================
+
     if (isset($_POST["borrar"])) {
         $id = $_POST["id"];
         $stmt = $pdo->prepare("DELETE FROM usuarios WHERE id = :id");
@@ -47,9 +42,6 @@
     }
 
 
-    // ======================
-    // UPDATE
-    // ======================
     if (isset($_POST["editar"])) {
         $id = $_POST["id"];
         $nombre = $_POST["nombre"];
@@ -74,14 +66,14 @@
     <?php endif; ?>
 
 
-    <!-- CREATE -->
+    
     <form method="POST" class="mb-4 text-center">
         <input type="text" name="nombre" class="form-control mb-2" placeholder="Nombre">
         <button name="crear" class="btn btn-primary">Crear usuario</button>
     </form>
 
 
-    <!-- READ -->
+    
     <h3>Usuarios</h3>
 
 
