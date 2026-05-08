@@ -68,7 +68,8 @@ A lo largo del proyecto se trabajan conceptos fundamentales como:
 
 
 - **`game4.php`**  
-  👉 *Game 4: 🎮  Piedra, Papel o Tijeras con historial
+  👉 *Game 4: 🎮  Piedra, Papel o Tijeras con historial*
+  
   Proyecto rápido y fácil.
 
 
