@@ -67,6 +67,11 @@ A lo largo del proyecto se trabajan conceptos fundamentales como:
   Proyecto final más complejo con mayor dinamismo y lógica en el cliente.
 
 
+- **`game4.php`**  
+  👉 *Game 4: 🎮  Piedra, Papel o Tijeras con historial
+  Proyecto rápido y fácil.
+
+
 ---
 
 

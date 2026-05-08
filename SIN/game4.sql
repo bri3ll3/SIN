@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS game4;
+USE game4;
+
+CREATE TABLE partidas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    jugador VARCHAR(50) NOT NULL,
+    eleccion_jugador VARCHAR(20) NOT NULL,
+    eleccion_maquina VARCHAR(20) NOT NULL,
+    resultado VARCHAR(20) NOT NULL,
+    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
